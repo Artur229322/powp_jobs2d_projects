@@ -7,5 +7,6 @@ public interface Visitor {
     public void visitCommandsRecorderDriver(CommandsRecorderDriver commandsRecorderDriver);
     public void visitLineDriverAdapter(LineDriverAdapter lineDriverAdapter);
     public void visitDriverComposite(DriverComposite driverComposite);
+    public void visitSingleDriver(SingleDriver singleDriver);
 
 }
